@@ -27,23 +27,10 @@ HTML5 + JavaScript
 
 Maven
 
-🗃️ Estrutura do Projeto
-css
-Copiar
-Editar
-SistemaAutomotivo_Resolvido/
-├── backend/
-│   ├── src/main/java/com/sistema/automotivo/
-│   │   ├── model/Veiculo.java
-│   │   ├── repository/VeiculoRepository.java
-│   │   ├── controller/VeiculoController.java
-│   │   └── SistemaAutomotivoApplication.java
-│   ├── src/main/resources/application.properties
-│   └── pom.xml
-├── frontend/
-│   └── index.html
+
 ⚙️ Como Executar
 Clone o repositório:
+
 
 bash
 Copiar
@@ -51,11 +38,13 @@ Editar
 git clone https://github.com/seu-usuario/sistema-automotivo.git
 Configure o banco de dados MySQL:
 
+
 sql
 Copiar
 Editar
 CREATE DATABASE sistema_automotivo;
 Atualize o arquivo application.properties com seu usuário e senha MySQL:
+
 
 properties
 Copiar
